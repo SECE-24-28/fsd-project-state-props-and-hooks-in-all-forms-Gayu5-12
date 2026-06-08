@@ -64,13 +64,13 @@ function Login() {
     const adminPass = window.prompt("Enter Admin Password:");
     if (!adminPass) return;
 
-    if (adminUser === "admin" && adminPass === "password123") {
+    if (adminUser === "Surya" && adminPass === "Surya@123") {
       localStorage.setItem("loggedIn", "true");
       localStorage.setItem("isAdmin", "true");
-      localStorage.setItem("userEmail", "admin@petpaws.com");
+      localStorage.setItem("userEmail", "suryasekar626@gmail.com");
       localStorage.setItem("registeredUser", JSON.stringify({
-        name: "System Administrator",
-        email: "admin@petpaws.com"
+        name: "Surya",
+        email: "suryasekar626@gmail.com"
       }));
 
       setMessage({

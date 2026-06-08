@@ -109,7 +109,7 @@ function Navbar() {
           ) : (
             <>
               <Link to="/login" className={`navbar-link ${location.pathname === "/login" ? "active" : ""}`} onClick={() => setMenuOpen(false)}>Login</Link>
-              <Link to="/signup" className="navbar-signup-btn" onClick={() => setMenuOpen(false)}>Sign Up</Link>
+              <Link to="/signup" className="" onClick={() => setMenuOpen(false)}></Link>
             </>
           )}
         </div>
